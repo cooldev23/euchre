@@ -1,8 +1,14 @@
+<script setup>
+import TestCard from '@/components/icons/TestCard.vue';
+import BaseView from './BaseView.vue';
+
+
+</script>
+
 <template>
-  <div>
-    Player1
-    <div>
-      Player1 Cards
-    </div>
-  </div>
+  <BaseView>
+    <template #content>
+      <TestCard/>
+    </template>
+  </BaseView>
 </template>
