@@ -1,7 +1,9 @@
 <template>
   <NavBar></NavBar>
-  <slot name="body">
-  </slot>
+  <main>
+    <slot name="content">
+    </slot>
+  </main>
 </template>
 
 <script setup>
